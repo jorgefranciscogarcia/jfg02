@@ -37,6 +37,14 @@ body {
   width: 100%; /* El video ocupa el ancho completo del contenedor */
   height: 480px; /* La altura se ajusta automáticamente */
 }
+@media (max-width: 768px) {
+  #moon, #youtube {
+    width: 100%; /* La imagen ocupa todo el ancho disponible */
+  }
+  .texto-parrafo {
+    font-size: 16px; /* Tamaño de fuente más pequeño para dispositivos móviles */
+  }
+}
 
 ol, ul {
 	list-style: none;

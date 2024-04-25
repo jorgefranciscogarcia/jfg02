@@ -38,12 +38,6 @@ body {
   height: auto; /* La altura se ajusta automáticamente */
 }
 
-@media (min-width: 768px) {
-  #moon, #youtube {
-    height: 500px; /* Ajusta la altura según tus necesidades */
-  }
-}
-
 ol, ul {
 	list-style: none;
 }

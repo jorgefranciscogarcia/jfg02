@@ -33,6 +33,25 @@ body {
 	text-align: right;
   }
 
+.moon {
+  display: flex; /* O display: grid; */
+  flex-wrap: wrap; /* Permite que las secciones se ajusten en varias filas */
+}
+.youtube {
+  display: flex; /* O display: grid; */
+  flex-wrap: wrap; /* Permite que las secciones se ajusten en varias filas */
+}
+
+@media (max-width: 768px) {
+  .moon, .youtube {
+    flex-direction: column; /* Secciones en columna para pantallas pequeñas */
+  }
+  #moon, #youtube {
+    width: 100%; /* Ancho completo para cada sección en pantallas pequeñas */
+  }
+}
+
+
 /* #moon, #youtube {
   width: 100%; /* El video ocupa el ancho completo del contenedor */
 /*  height: 480px; /* La altura se ajusta automáticamente */

@@ -35,7 +35,7 @@ body {
 
 #moon, #youtube {
   width: 100%; /* El video ocupa el ancho completo del contenedor */
-  height: auto; /* La altura se ajusta automáticamente */
+  height: 100%; /* La altura se ajusta automáticamente */
 }
 
 ol, ul {

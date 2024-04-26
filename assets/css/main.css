@@ -82,7 +82,7 @@ input, select, textarea {
 		-ms-overflow-style: scrollbar;
 	}
 
-	@media screen and (max-width: 350px) {
+	@media screen and (max-width: 100%) {
 		.video-container iframe {
     		width: 100%;
     		height: auto;
